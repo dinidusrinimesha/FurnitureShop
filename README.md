@@ -2,16 +2,7 @@
 
 A responsive and visually appealing website created for a **Furniture Shop**, showcasing products and essential information to potential customers.  
 This project demonstrates the use of **HTML**, **CSS**, **JavaScript**, and the **Bootstrap** framework for building modern, user-friendly interfaces.
-
----
-
-## 🌐 Live Demo
-
-🔗 **[View Live Demo](https://your-demo-link-here.com)**  
-
----
-
-## 🖼️ Project Snapshot
+🔗 **[View Live Demo](https://eligentfurniture.netlify.app/)**   
 
 ![Landing Page Screenshot](./images/landing-page.png)  
 *Landing page of The FurnitureShop website.*
@@ -48,3 +39,9 @@ It is fully responsive and designed to provide a smooth browsing experience acro
 1. **Clone the repository**
    ```bash
    git clone https://github.com/your-username/FurnitureShop.git
+
+2. **Navigate to the Project Folder**
+   ```bash
+   cd FurnitureShop
+   
+3. **Open index.html in your browser**
