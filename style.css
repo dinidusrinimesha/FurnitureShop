@@ -1,0 +1,259 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Navbar Styles */
+.navbar{
+    background-color: #497649 !important;
+}
+
+.navbar-brand{
+    font-size: 1.5em;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-nav a{
+    color: #fff !important;
+}
+
+.navbar-icon img{
+    font-size: 1.5em;
+}
+
+/* Section 1 - Hero Banner */
+.section1-container{
+    background-color: #497649 !important;
+}
+
+.section1-container h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.section1-container h4{
+    font-family: "Inter", sans-serif;
+    color: #ffffff89;
+    font-weight: 300;
+}
+
+.section1-container p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Buttons */
+.btn-filled-yellow{
+    background: #f9bf29;
+    border: #f9bf29;
+    padding: 10px 16px;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+
+.btn-filled-yellow:hover{
+    cursor: pointer;
+    background: #f5b002;
+    box-shadow: 1px 1px 10px #f5b00230;
+}
+
+.btn-trans{
+    background: transparent;
+    border: 2px solid #ffffff7b;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+
+.btn-trans:hover{
+    color: #000;
+    background: #ffffff7b;
+    border: 2px solid #ffffff7b;
+    box-shadow: 1px 1px 20px #ffffff22;
+}
+
+/* Section 2 */
+.section2-content{
+    background-color: #fff;
+}
+
+.content-h2{
+    color: #2f2f2f;
+    font-size: 2rem;
+}
+
+.content-para{
+    color: #6a6a6a;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.chair-details{
+    text-align: center;
+    color: #6a6a6a;
+}
+
+.chair-details .chair-name{
+    font-size: 1.2em;
+}
+
+.section2-explore-btn{
+    color: #ffffff;
+    background: #2f2f2f;
+    border: #2f2f2f;
+    padding: 10px 18px;
+    border-radius: 25px;
+    transition: .25s;
+}
+
+.section2-explore-btn:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 15px rgba(106, 106, 106, 0.525);
+}
+
+/* Section 3 */
+.section3-container{
+    background-color: #daf1f0;
+}
+
+.product-color{
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.496);
+}
+
+.product-table th{
+    color: #2f2f2f;
+    text-align: center;
+}
+
+.product-table td{
+    color: #6a6a6a;
+}
+
+/* Section 4 */
+.section4-container{
+    background-color: #f2fbaf;
+}
+
+.section4-ul{
+    line-height: 32px;
+    font-weight: bold;
+}
+
+/* Contact Form */
+.contact-us-form{
+    box-shadow: 0px 0px 10px rgba(150, 150, 150, 0.225); 
+    border-radius: 10px; 
+}
+
+.contact-us-form input, 
+.contact-us-form textarea{
+    border: 2px solid rgba(119, 119, 119, 0.295);
+    border-radius: 4px;
+    padding: 10px 18px;
+}
+
+.contact-us-form button{
+    background-color: #000;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 25px;
+    transition: .25s;
+    border: none;
+}
+
+.contact-us-form button:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px rgba(120, 120, 120, 0.423);
+}
+
+.contact-social-media a{
+    text-decoration: none;
+    color: #6a6a6a;
+}
+
+/* Footer */
+.footer-section{
+    background-color: #8a8a8a1e;
+}
+
+.content-h4{
+    color: #2f2f2f;
+}
+
+.footer-section a, 
+.footer-section small{
+    color: #6a6a6a;
+    text-decoration: none;
+}
+
+.footer-section a:hover{
+    text-decoration: underline;
+}
+
+/* Animations */
+.slide-in {
+    animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+.slide-in-rev {
+    animation: slideInRev 1s ease-out;
+}
+
+@keyframes slideInRev {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+.container {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Mobile Responsive - Only what Bootstrap can't handle */
+@media (max-width: 768px) {
+    .section1-container h1{
+        font-size: 1.8rem;
+    }
+    
+    .content-h2{
+        font-size: 1.5rem;
+    }
+    
+    .product-table{
+        font-size: 0.85rem;
+    }
+    
+    .product-color{
+        height: 16px;
+        width: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .section1-container h1{
+        font-size: 1.5rem;
+    }
+    
+    .content-h2{
+        font-size: 1.3rem;
+    }
+    
+    .navbar-brand{
+        font-size: 1.2em;
+    }
+}
