@@ -1,11 +1,12 @@
-# 🪑 Frontend Project for The Furniture Shop Website
+# 🪑 Frontend Project for The Furniture Shop
 
 A responsive and visually appealing website created for a **Furniture Shop**, showcasing products and essential information to potential customers.  
 This project demonstrates the use of **HTML**, **CSS**, **JavaScript**, and the **Bootstrap** framework for building modern, user-friendly interfaces.
+
 🔗 **[View Live Demo](https://eligentfurniture.netlify.app/)**   
 
 ![Landing Page Screenshot](./images/landing-page.png)  
-*Landing page of The FurnitureShop website.*
+*Landing page*
 
 ---
 
